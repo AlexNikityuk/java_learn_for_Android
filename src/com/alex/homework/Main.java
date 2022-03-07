@@ -11,7 +11,13 @@ public class Main {
         char symbol = 'c';
         boolean isTrue = true;
         String name = "Alex";
+        System.out.println("Result is: " + result(4.0f,0.23f,907.0f, 2354.3f));
     }
+
+    static float result(float a, float b, float c, float d) {
+        return a * (b + (c / d));
+    }
+
 
 
 }
