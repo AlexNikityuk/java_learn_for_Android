@@ -13,6 +13,8 @@ public class Main {
         String name = "Alex";
         System.out.println("Result is: " + result(4.0f,0.23f,907.0f, 2354.3f));
         System.out.println("Result is: " + resultNumber(12,19));
+        positiveOrNegativeNumber(124);
+        positiveOrNegativeNumber(-123);
     }
 
     static float result(float a, float b, float c, float d) {
@@ -24,6 +26,14 @@ public class Main {
         return sum > 10 && sum <= 20;
     }
 
+    static void positiveOrNegativeNumber(int number) {
+        if (number < 0) {
+            System.out.println("Negative");
+        }
+        else {
+            System.out.println("Positive");
+        }
+    }
 
 
 
