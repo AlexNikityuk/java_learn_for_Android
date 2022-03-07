@@ -12,11 +12,18 @@ public class Main {
         boolean isTrue = true;
         String name = "Alex";
         System.out.println("Result is: " + result(4.0f,0.23f,907.0f, 2354.3f));
+        System.out.println("Result is: " + resultNumber(12,19));
     }
 
     static float result(float a, float b, float c, float d) {
         return a * (b + (c / d));
     }
+
+    static boolean resultNumber(int a, int b) {
+        int sum = a + b;
+        return sum > 10 && sum <= 20;
+    }
+
 
 
 
